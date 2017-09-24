@@ -1,0 +1,12 @@
+<h1>
+	List of articles 
+</h1>
+<ul>
+	<li *ngFor="let article of articles">
+		<p>id: {{article.id}}</p>
+		<a>title: {{article.id}}</a>
+		<p>content: {{article.content}}</p>
+	</li>
+</ul>
+
+<router-outlet></router-outlet>

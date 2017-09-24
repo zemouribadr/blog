@@ -1,0 +1,12 @@
+#navbar{
+	text-align: center;
+}
+#navbar li{
+	display: inline-block;
+	color: red;
+	margin-right: 20px;
+	font-size: 20px;
+}
+#navbar li:last-child{
+	margin-right: 0;
+}
